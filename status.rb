@@ -1,9 +1,11 @@
 # This script will do a call to mentioned URL. Will fetch the response and see whether it is success or not.
 # Based on the response it gives OK or CRITIAL status (no WARNING)
 
-#The API which I was firing was written by some other developer. I wrote another script to call xml and get the status of the API. This XML would return two responses.
+#The XML which I was calling was written by some other developer. It was written for our internal setup where it tells us the total number of servers we have and if there is any need to deploy a new server. I wrote this script to call xml and get the status and response. Based on the response it decides the criticality of the number of servers needed. This XML would return two responses.
 #1. Whether the API status succeeded or not
 #2. Upon it's execution it returns the data based on what API status was
+
+### Author : Nitesh Mestry
 
 #!/bin/env ruby
 
