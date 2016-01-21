@@ -1,13 +1,17 @@
 #!/bin/bash
 
-### About this script : When this script is run, it checks which all instances are running, it sorts them and compares if the desired instance is running or not. If it is running then other servers will exit this script with exit code as 1. The instance which is supposed to run will only give successful exit status as 0.
+### About this script : 
+#When this script is run, it checks which all instances are running
+#It sorts them and compares if the desired instance is running or noti
+#If it is running then other servers will exit this script with exit code as 1
+#The instance which is supposed to run will only give successful exit status as 0.
 
 ### Author : Nitesh Mestry
 ###
 
 ### export access and secret keys
 AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXXXXXXX"
-AWS_SECRET_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+AWS_SECRET_KEY="XXXXXXXXXXXXXXXXXXXXX"
 
 
 ### Check for running instance IDs and compare
