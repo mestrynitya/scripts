@@ -12,4 +12,5 @@ for username in `cat users | awk '{print $1}'`
 	echo "username" $username
 	password=`cat users | awk '{print $2}'`
 	echo "password" $password
+	echo $password|passwd $username --stdin
 done
