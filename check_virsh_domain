@@ -1,6 +1,6 @@
 #!/bin/sh
 ### Checks status of virtual machines and reports critical if there are any
-### Author : Nitesh Mestry nitesh.m@endurance.com
+### Author : Nitesh Mestry
 ### Date : 19|07|2016
 
 ### Removing old log files
